@@ -4,6 +4,13 @@
 <body>
 
   <h1>IslamicApp</h1>
+   <h2>Screenshots</h2>
+  <div class="screenshots">
+    <img src="screenshots/home_screen.png" alt="Home Screen" />
+    <img src="screenshots/azkar_screen.png" alt="Azkar Screen" />
+    <img src="screenshots/qibla_screen.png" alt="Qibla Screen" />
+    <img src="screenshots/settings_screen.png" alt="Settings Screen" />
+  </div>
 
   <p>
     IslamicApp is a comprehensive mobile application developed with Flutter, designed to provide essential religious utilities for Muslims worldwide.
@@ -29,13 +36,7 @@
     Local JSON / APIs (for Azkar)
   </div>
 
-  <h2>Screenshots</h2>
-  <div class="screenshots">
-    <img src="screenshots/home_screen.png" alt="Home Screen" />
-    <img src="screenshots/azkar_screen.png" alt="Azkar Screen" />
-    <img src="screenshots/qibla_screen.png" alt="Qibla Screen" />
-    <img src="screenshots/settings_screen.png" alt="Settings Screen" />
-  </div>
+ 
 
   <h2>App Screens Overview</h2>
   <ul>
