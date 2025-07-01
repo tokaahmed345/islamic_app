@@ -6,10 +6,15 @@
   <h1>IslamicApp</h1>
    <h2>Screenshots</h2>
   <div class="screenshots">
-    <img src="screenshots/home_screen.png" alt="Home Screen" />
-    <img src="screenshots/azkar_screen.png" alt="Azkar Screen" />
-    <img src="screenshots/qibla_screen.png" alt="Qibla Screen" />
-    <img src="screenshots/settings_screen.png" alt="Settings Screen" />
+    <img src="screenshots/Screenshot_1750728947.png" alt="Home Screen" />
+    <img src="screenshots/Screenshot_1750728953.png" alt="Azkar Screen" />
+    <img src="screenshots/Screenshot_1750728958.png" alt="Qibla Screen" />
+    <img src="screenshots/Screenshot_1750728960.png" alt="Settings Screen" />
+    <img src="screenshots/Screenshot_1750728966.png" alt="Settings Screen" />
+    <img src="screenshots/Screenshot_1750728969.png" alt="Settings Screen" />
+    <img src="screenshots/Screenshot_1750728972.png" alt="Settings Screen" />
+    <img src="screenshots/Screenshot_1750728980.png" alt="Settings Screen" />
+
   </div>
 
   <p>
