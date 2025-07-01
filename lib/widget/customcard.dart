@@ -20,7 +20,7 @@ final void Function()? onTap;
           child: Container(
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xff8e2680),
                     Color.fromARGB(255, 186, 70, 139)
@@ -37,7 +37,7 @@ final void Function()? onTap;
                 children: [
                   Text(
                     text,
-                    style: TextStyle(
+                    style: const TextStyle(
                         color: Colors.white,
                         fontSize: 36,
                         fontWeight: FontWeight.bold),

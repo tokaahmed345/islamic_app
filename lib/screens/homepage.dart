@@ -15,17 +15,17 @@ class Homepage extends StatelessWidget {
       appBar: AppBar(
 automaticallyImplyLeading: false,       
 
- backgroundColor:      Color(0xff161853),
+ backgroundColor:      const Color(0xff161853),
 
         centerTitle: true,
-        title: Text(
+        title: const Text(
           "Home",
           style: TextStyle(color: Colors.white,fontSize: 35,fontWeight: FontWeight.bold),
         ),
         elevation: 0,
       ),
       body: Container(
-        color: Color(0xff161853),
+        color: const Color(0xff161853),
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10),
              child:    SingleChildScrollView(

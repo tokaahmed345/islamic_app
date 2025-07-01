@@ -24,13 +24,13 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
       ),
 routes: {
-MuslimApp.id:(context)=>MuslimApp(),
-Homepage.id:(context)=>Homepage(),
-PrayerTimes.id:(context)=>PrayerTimes(),
-Al_Azkar.id:(context)=>Al_Azkar(),
-AzkarContent.id:(context)=>AzkarContent(),
-Hijriscreen.id:(context)=>Hijriscreen(),
-QiblaCompass.id:(context)=>QiblaCompass()
+MuslimApp.id:(context)=>const MuslimApp(),
+Homepage.id:(context)=>const Homepage(),
+PrayerTimes.id:(context)=>const PrayerTimes(),
+Al_Azkar.id:(context)=>const Al_Azkar(),
+AzkarContent.id:(context)=>const AzkarContent(),
+Hijriscreen.id:(context)=>const Hijriscreen(),
+QiblaCompass.id:(context)=>const QiblaCompass()
 },
 initialRoute: MuslimApp.id,
   

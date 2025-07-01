@@ -24,7 +24,7 @@ class AzkarContent extends StatelessWidget {
             fontWeight: FontWeight.bold,
             fontSize: screenSize.width > 600 ? 35 : 25),
         ),
-        backgroundColor: Color(0xff161853),
+        backgroundColor: const Color(0xff161853),
         centerTitle: true,
         leading: IconButton(
           icon: Icon(
@@ -36,7 +36,7 @@ class AzkarContent extends StatelessWidget {
         ),
       ),
       body: Container(
-        color: Color(0xff161853),
+        color: const Color(0xff161853),
         child: FutureBuilder(
           future: DefaultAssetBundle.of(context).loadString("assets/images/content.json"), 
           builder: (context, snapshot) {
@@ -49,7 +49,7 @@ class AzkarContent extends StatelessWidget {
            List filteredAzkar=        azkarContent.where((data)=>data['section_id']==azkarId).toList();
         
               if (filteredAzkar.isEmpty) {
-                return Center(child: Text("لا توجد أذكار متاحة لهذا القسم."));
+                return const Center(child: Text("لا توجد أذكار متاحة لهذا القسم."));
               } else {
                 return ListView.builder(
                   itemCount: filteredAzkar.length,
@@ -62,10 +62,10 @@ class AzkarContent extends StatelessWidget {
                         child: Container(
                       decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(15),
-                                      gradient: LinearGradient(
+                                      gradient: const LinearGradient(
                                         colors: [
                                           Color(0xff8e2680),
-                                          Color.fromARGB(255, 186, 70, 139)
+                                          const Color.fromARGB(255, 186, 70, 139)
                                         ],
                                         begin: Alignment.topLeft,
                                         end: Alignment.bottomRight,

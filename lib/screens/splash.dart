@@ -16,7 +16,7 @@ class _MuslimAppState extends State<MuslimApp> {
   void initState() {
     super.initState();
 
-    Future.delayed(Duration(seconds: 2),(){
+    Future.delayed(const Duration(seconds: 2),(){
     Navigator.pushNamed(context, Homepage.id);
 
     });

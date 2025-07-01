@@ -33,7 +33,7 @@ setState(() {
     return Scaffold(
 
 body: Container(
-  color: Color(0xff161853),
+  color: const Color(0xff161853),
   child: Column(children: [
   
      Padding(
@@ -44,7 +44,7 @@ body: Container(
       
       "${DateFormat('EEEE, d MMMM yyyy').format(today)}"
             ,
-    style: TextStyle(color: Color.fromARGB(255, 162, 59, 148),fontSize: 25,fontWeight: FontWeight.bold),),
+    style: const TextStyle(color: Color.fromARGB(255, 162, 59, 148),fontSize: 25,fontWeight: FontWeight.bold),),
     
     ),
   
@@ -58,7 +58,7 @@ body: Container(
     firstDay:DateTime.utc(2000,1,1) , 
     lastDay: DateTime.utc(2040,1,1),
     
-    calendarStyle: CalendarStyle(
+    calendarStyle: const CalendarStyle(
       
                 defaultTextStyle: TextStyle(color: Colors.white,fontSize: 24),
                 weekendTextStyle: TextStyle(color: Colors.white,fontSize: 24), // Days color
@@ -74,7 +74,7 @@ body: Container(
     
     ),
 
-    headerStyle: HeaderStyle(
+    headerStyle: const HeaderStyle(
   
       titleTextStyle: TextStyle(color: Colors.white,fontSize: 20),
       formatButtonVisible: false,
@@ -83,7 +83,7 @@ body: Container(
             rightChevronIcon: Icon(Icons.chevron_right, color: Colors.white), 
  
     ),
-    daysOfWeekStyle: DaysOfWeekStyle(
+    daysOfWeekStyle: const DaysOfWeekStyle(
       weekendStyle:TextStyle(color: Colors.white) ,
       weekdayStyle: TextStyle(color: Colors.white)),
   )

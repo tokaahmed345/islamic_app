@@ -16,8 +16,8 @@ class CustomImage extends StatelessWidget {
       ),
       child: ClipRRect(
               borderRadius: BorderRadius.circular(20),
-        child: Image(
-       image: AssetImage(   "assets/images/prayer.jpg",
+        child: const Image(
+       image: const AssetImage(   "assets/images/prayer.jpg",
       
         ),
            fit: BoxFit.fill,

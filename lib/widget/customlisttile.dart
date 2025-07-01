@@ -13,12 +13,12 @@ final String name;
             // trailing: IconButton(onPressed: (){} ,icon: Icon(Icons.notifications_active,color: Colors.white,size: 35,)),
             leading: Text(
       name,
-         style: TextStyle(color: Colors.white,fontSize: 29),
+         style: const TextStyle(color: Colors.white,fontSize: 29),
             ),
          
            title: Align(
           alignment: Alignment.topRight,
-          child: Text(Time,style: TextStyle(color: Colors.white,fontSize: 25),)),
+          child: Text(Time,style: const TextStyle(color: Colors.white,fontSize: 25),)),
            
           );
   }

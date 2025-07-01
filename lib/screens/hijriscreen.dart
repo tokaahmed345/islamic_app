@@ -12,10 +12,10 @@ class Hijriscreen extends StatelessWidget {
  return Scaffold(
 appBar: AppBar(
   elevation: 0,
-  backgroundColor: Color(0xff161853),
-  leading: IconButton(onPressed: (){Navigator.pop(context);}, icon: Icon(Icons.arrow_back_ios,color: Colors.white,)),
-  title: Text("Hijri Calendar"),centerTitle: true,),
-body: CustomHijriScreen(),
+  backgroundColor: const Color(0xff161853),
+  leading: IconButton(onPressed: (){Navigator.pop(context);}, icon: const Icon(Icons.arrow_back_ios,color: Colors.white,)),
+  title: const Text("Hijri Calendar"),centerTitle: true,),
+body: const CustomHijriScreen(),
 
  );
   

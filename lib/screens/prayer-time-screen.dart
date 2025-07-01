@@ -11,25 +11,25 @@ class PrayerTimes extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Color(0xff161853),
+        backgroundColor: const Color(0xff161853),
         centerTitle: true,
         leading: IconButton(
             onPressed: () {
               Navigator.pop(context);
             },
-            icon: Icon(
+            icon: const Icon(
               Icons.arrow_back_ios,
               size: 40,
               color: Colors.white,
             )),
-        title: Text(
+        title: const Text(
           "All Prayer",
           style: TextStyle(fontSize: 30,color: Colors.white,fontWeight: FontWeight.bold),
         ),
       ),
-      body: Container(color: Color(0xff161853),
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 5,vertical: 8),
+      body: Container(color: const Color(0xff161853),
+        child: const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 5,vertical: 8),
           child: Column(
             children: [
           CustomImage(),

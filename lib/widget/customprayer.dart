@@ -46,7 +46,7 @@ final info=snapshot.data!;
                   
       
 }else if(snapshot.connectionState==ConnectionState.waiting){
-  return SpinKitRipple(size: 100,color: Colors.purple,);
+  return const SpinKitRipple(size: 100,color: Colors.purple,);
 }else{
     return Text("Error${snapshot.error}");
 
